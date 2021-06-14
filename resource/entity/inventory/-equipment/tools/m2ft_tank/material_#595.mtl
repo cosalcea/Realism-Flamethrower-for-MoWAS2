@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "attach_m2_tank_dm"}
+	{bump "attach_m2_tank_nm"}
+	{blend none}
+}

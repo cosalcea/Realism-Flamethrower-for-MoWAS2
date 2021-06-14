@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "weapon_w_m2_dm"}
+	{bump "weapon_w_m2_nm"}
+	{blend none}
+}

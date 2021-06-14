@@ -1,0 +1,106 @@
+;Exported by: Cosalcea
+;Date:        Thu Apr 15 20:59:21 2021
+;File:        F:\Library\3D Objects\scenes\smallarms.max
+{Skeleton
+	{bone "type100ft_balloon"
+		{parameters "CommonMesh;ID=flamethrower;"}
+		{Orientation
+			0.76	-0.05	0
+			-0.05	-0.76	0
+			0	0	0.76
+		}
+		{position 2 0 0}
+		{VolumeView "type100ft_balloon.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1.32	0	0
+				0	-1.32	0
+				0	0	1.32
+				6.85707	3.33262	-2.03345
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.54579 7.79116 4.54484}
+	{Bone "type100ft_balloon"}
+	{Matrix34
+		1.92259	0	0
+		0	1.22711	0
+		0	0	1
+		6.4586	3.23094	0.281572
+	}
+}
+{Volume "select"
+	{Box 5.54579 7.79116 4.54484}
+	{Bone "type100ft_balloon"}
+	{Matrix34
+		2.63961	0	0
+		0	1.78419	0
+		0	0	1.99623
+		6.4586	3.23094	0.281572
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -30.0908	33.7462	538.587}
+			{lookat 6.51695	-2.63876	2.25088}
+			{fov 1.17759}
+			{horizon 41.2001}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.49921	-0.00169322	-0.0280554}
+			}
+			{"1"
+				{type point}
+				{position -2.2265	19.1082	-34.8402}
+			}
+			{"2"
+				{type point}
+				{position 14.9731	52.1431	11.0448}
+			}
+			{"3"
+				{type point}
+				{position 30.51695	-30.63876	25.25088}
+			}
+			{"4"
+				{type point}
+				{position -30.51695	30.63876	25.25088}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -21.938	29.2447	540.899}
+			{lookat 6.61868	-2.63322	2.28251}
+			{fov 1.1308}
+			{horizon 41.2001}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.49921	-0.00169322	-0.0280554}
+			}
+			{"1"
+				{type point}
+				{position -2.2265	19.1082	-34.8402}
+			}
+			{"2"
+				{type point}
+				{position 14.9731	52.1431	11.0448}
+			}
+			{"3"
+				{type point}
+				{position 30.51695	-30.63876	25.25088}
+			}
+			{"4"
+				{type point}
+				{position -30.51695	30.63876	25.25088}
+			}
+		}
+	}
+}

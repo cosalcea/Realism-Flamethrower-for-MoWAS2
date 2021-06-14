@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "weapon_w_lifebuoy_dm"}
+	{bump "weapon_w_lifebuoy_nm"}
+	{blend none}
+}

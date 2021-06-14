@@ -1,0 +1,18 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {state 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "particle.fireservice"}
+	{volume "messenger"
+		{sphere 2}
+		{able clear {contact}}
+		{bone "basis"}
+		{material "dummy"}
+	}
+	{body
+		{proper body}
+		{permit body}
+	}
+	{props "balloon_service" "balloon_service_human" "balloon_messenger_napalm_thin"}
+}

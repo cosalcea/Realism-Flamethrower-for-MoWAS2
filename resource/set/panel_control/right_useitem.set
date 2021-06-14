@@ -1,0 +1,89 @@
+;SDL
+{panel_control
+	{supply_flamer_fuel_thin
+		{position 0 0}
+		{condition "tractor"}
+	}
+	{supply_flamer_fuel_thick
+		{position 1 0}
+		{condition "tractor"}
+	}
+	{supply_flamer_kit_thin
+		{position 0 1}
+		{condition "tractor"}
+	}
+	{supply_flamer_kit_thick
+		{position 1 1}
+		{condition "tractor"}
+	}
+	{supply_mounted_flamer_fuel_thin
+		{position 0 2}
+		{condition "tractor"}
+	}
+	{supply_mounted_flamer_fuel_thick
+		{position 1 2}
+		{condition "tractor"}
+	}
+	{heal
+		{position 0 0}
+		{condition "human disabled"}
+	}
+	{injection
+		{position 1 0}
+		{condition "disabled"}
+	}
+	{put_dynamite
+		{position 2 0}
+		{condition "disabled"}
+	}
+	{gc_cp_state_weapon
+		{position 3 0}
+		{condition "disabled"}
+	}
+	{burn
+	}
+	{mine
+	}
+	{mine_detection
+	}
+	{barricade
+		{condition "human"}
+	}
+	{round_sandbag
+		{condition "cannon"}
+	}
+	{trench_low_kit
+		{condition "human"}
+		;{position 0 1}
+	}
+	{trench_deep_kit
+		{condition "human"}
+		;{position 1 1}
+	}
+	{trench_long_kit
+		{condition "human"}
+		;{position 1 1}
+	}
+	{barbwire
+		{condition "human"}
+	}
+	{hedgehog
+	}
+	{plant
+	}
+	{collect
+		{position 0 2}
+		{condition "human disabled"}
+	}
+	{drop
+		{position 1 2}
+		{condition "human disabled"}
+	}
+	{gc_cp_leave_unit
+		{position 2 2}
+		{condition "vehicle single disabled"}
+	}
+	{gc_cp_browse_back
+		{position 3 2}
+	}
+}

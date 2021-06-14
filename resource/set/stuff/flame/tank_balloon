@@ -1,0 +1,15 @@
+{from "balloon"
+	{desc "Mounted Fuel tank Prototype"}
+	{tag "-smallitemin1hand itemin2hands"}
+	{filling "fuel" 1000}
+	{inventory
+		{size 4 6}
+		{weight 500}
+		{link_bone "body"}
+		{fsm "hand-only"}
+	}
+	{mass 100}
+	{entity "balloon_tank"}
+
+	{preloaded}
+}

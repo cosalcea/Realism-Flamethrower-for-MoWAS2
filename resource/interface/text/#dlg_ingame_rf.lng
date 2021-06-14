@@ -1,0 +1,111 @@
+{tags
+	{"actionbar"
+		{"supply_flamer_kit_thin" "Flamethrower Kit Supply (30 Resource Points)"}
+		{"supply_flamer_kit_thin"
+			{"action" "Manufacture a flamethrower kit"}
+			{"usage" "Click this button, supply truck will manufacture a portable flamethrower kit."}
+		}
+		{"supply_flamer_kit_thick" "Thickened Flamethrower Kit Supply (30 Resource Points)"}
+		{"supply_flamer_kit_thick"
+			{"action" "Manufacture a flamethrower kit (Thickened fuel)"}
+			{"usage" "Click this button, supply truck will manufacture a portable flamethrower kit filled with thickened fuel."}
+		}
+
+		{"supply_flamer_fuel_thin" "Flamethrower Fuel Supply (15 Resource Points)"}
+		{"supply_flamer_fuel_thin"
+			{"action" "Manufacture a fuel tank"}
+			{"usage" "Click this button, supply truck will manufacture a portable fuel tank."}
+		}
+		{"supply_flamer_fuel_thick" "Thickened Flamethrower Fuel Supply (15 Resource Points)"}
+		{"supply_flamer_fuel_thick"
+			{"action" "Manufacture a fuel tank (Thickened fuel)"}
+			{"usage" "Click this button, supply truck will manufacture a portable fuel tank filled with thickened fuel."}
+		}
+
+		{"supply_mounted_flamer_fuel_thin" "Mechanized Flamethrower Fuel Supply (50 Resource Points)"}
+		{"supply_mounted_flamer_fuel_thin"
+			{"action" "Manufacture a fuel tank for mechanized flamethrowers"}
+			{"usage" "Click this button, supply truck will manufacture a fuel tank for mechanized flamethrowers."}
+		}
+		{"supply_mounted_flamer_fuel_thick" "Thickened Mechanized Flamethrower Fuel Supply (50 Resource Points)"}
+		{"supply_mounted_flamer_fuel_thick"
+			{"action" "Manufacture a fuel tank for mechanized flamethrowers (Thickened fuel)"}
+			{"usage" "Click this button, supply truck will manufacture a fuel tank filled with thickened fuel for mechanized flamethrowers."}
+		}
+
+		{"trench_bighole" "Big foxhole"}
+		{"trench_bighole"
+			{"action" "Build a foxhole big enough to fit several soldiers (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+		{"trench_deep" "Deep foxhole"}
+		{"trench_deep"
+			{"action" "Build a deep foxhole for one soldier to sit in (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+		{"trench_low" "Shallow foxhole"}
+		{"trench_low"
+			{"action" "Build a shallow foxhole for one soldier to lie in (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+		{"trench_long" "Long trench"}
+		{"trench_long"
+			{"action" "Build a long trench for several soldiers (to place: hold right mouse button and drag in the direction you want it to face)"}
+		}
+	}
+
+	{"flamer_info"
+		{"cf" "<c(FF1F00)>Fuel tank caught fire<c(FFFFFF)>"}
+		{"dc" "<c(FF1F00)>Fuel tank discarded<c(FFFFFF)>"}
+		{"ef" "<c(FF1F00)>Wrong fuel tank<c(FFFFFF)>"}
+		{"bl" "<c(BBBBBB)>Crew blinded<c(BBBBBB)>"}
+	}
+	{"supply_info"
+		{"mfing" "<c(00FF45)>Manufacturing<c(00FF45)>"}
+		{"moving" "<c(BBBBBB)>Unavailable when moving<c(BBBBBB)>"}
+		{"cd" "<c(BBBBBB)>It's on cooldown<c(BBBBBB)>"}
+		{"ua" "<c(BBBBBB)>Unavailable for this vehicle<c(BBBBBB)>"}
+		{"nes" "<c(BBBBBB)>Not Enough Supplies<c(BBBBBB)>"}
+	}
+	{"component"
+		{"burn_engine" "<c(FF8C00)>Engine on fire<c(FFFFFF)>"}
+	}
+
+	{"desc"
+		{"flamer"
+			{"flamer_supply" "Equipment box"}
+
+			{"fuel" "Motor fuel"}
+			{"mixedoil" "Premixed liquid fuel"}
+			{"mixedoil_thick" "Thickened fuel"}
+			{"napalm_thick" "Thick napalm fuel"}
+			{"napalm_thin" "Thin napalm fuel"}
+
+			{"flame_thrower_e" "No.2 flamethrower"}
+			{"flame_thrower_g" "FmW 41 flamethrower"}
+			{"flame_thrower_g35" "FmW 35 flamethrower"}
+			{"flame_thrower_j" "Type 100 flamethrower"}
+			{"flame_thrower_r2" "ROKS-2 flamethrower"}
+			{"flame_thrower_r3" "ROKS-3 flamethrower"}
+			{"flame_thrower_u" "M1A1 flamethrower"}
+			{"flame_thrower_u2" "M2-2 flamethrower"}
+			{"flame_thrower_f" "Schilt No.3 flamethrower"}
+			{"flame_thrower_i" "Modello 35 flamethrower"}
+			{"flame_thrower_tank_e" "Crocodile"}
+			{"flame_thrower_tank_u" "POA-CWS"}
+			{"flame_thrower_tank_g" "14mm"}
+			{"flame_thrower_tank_i" "Modello 35"}
+			{"flame_thrower_tank_j" "Type 100"}
+
+			{"balloon_e" "No.2 fuel tank"}
+			{"balloon_g" "FmW 41 fuel tank"}
+			{"balloon_g35" "FmW 35 fuel tank"}
+			{"balloon_j" "Type 100 fuel tank"}
+			{"balloon_r2" "ROKS-2 fuel tank"}
+			{"balloon_r3" "ROKS-3 fuel tank"}
+			{"balloon_u" "M1A1 fuel tank"}
+			{"balloon_u2" "M2-2 fuel tank"}
+			{"balloon_f" "Schilt No.3 fuel tank"}
+			{"balloon_i" "Modello 35 fuel tank"}
+			{"mounted_balloon" "Mounted fuel tank"}
+			{"trailer_balloon" "Trailer fuel tank"}
+		}
+	}
+}

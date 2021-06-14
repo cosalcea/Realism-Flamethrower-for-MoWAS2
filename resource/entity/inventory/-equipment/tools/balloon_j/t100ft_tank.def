@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "t100ft_tank.mdl"}
+	{volume "body"
+		{thickness 1}
+	}
+	{props "capacity" "balloon"}
+	{extender "stuff"
+		{item "balloon_j"}
+	}
+	{body {proper body sensible} {permit body}}
+	{tag "t100"}
+}

@@ -1,0 +1,42 @@
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "f1"
+			{Position 35	0	0}
+		}
+		{bone "b1"
+			{Position 21	9	0}
+		}
+		{bone "b2"
+			{Position 22	-9 0}
+		}
+		{bone "b3"
+			{Position 5	12	0}
+		}
+		{bone "b4"
+			{Position 6	-6 0}
+		}
+		{bone "b5"
+			{Position -12	10	0}
+		}
+		{bone "b6"
+			{Position -11	-6 0}
+		}
+		{bone "t1"
+			{Position 20	0	25}
+		}
+		{bone "t2"
+			{Position 2	0	25}
+		}
+		{bone "t3"
+			{Position -16	3	25}
+		}
+		{bone "r1"
+			{Position -26	0	0}
+		}
+	}
+}

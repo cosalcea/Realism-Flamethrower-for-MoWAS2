@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "ballon_wex17.mdl"}
+	{volume "body"
+		{thickness 1}
+	}
+	{props "capacity" "balloon"}
+	{extender "stuff"
+		{item "balloon_e"}
+	}
+	{body {proper body sensible} {permit body}}
+	{tag "wex17"}
+}

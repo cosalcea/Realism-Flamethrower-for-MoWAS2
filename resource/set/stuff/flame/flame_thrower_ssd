@@ -1,0 +1,35 @@
+{from "flame_thrower_j"
+	{desc "desc/flamer/flame_thrower_tank_j"}
+
+	{speed 70}
+	{gravity 2.5}
+	{aimRange 25.5}
+	{maxRange 25.5}
+	{parameters "motor"
+		{speed 70}
+		{aimRange 25.5}
+		{maxRange 25.5}
+	}
+	{parameters "mixedoil_thick"
+		{gravity 4}
+		{speed 70}
+		{aimRange 32.5}
+		{maxRange 32.5}
+	}
+	{parameters "napalm_thick"
+		{gravity 4}
+		{speed 70}
+		{aimRange 33.5}
+		{maxRange 33.5}
+	}
+	{parameters "mixedoil"
+		{speed 75}
+		{aimRange 30.5}
+		{maxRange 30.5}
+	}
+	{parameters "napalm_thin"
+		{speed 80}
+		{aimRange 31.5}
+		{maxRange 31.5}
+	}
+}

@@ -1,0 +1,22 @@
+{game_entity
+	{Extension "barrels1.mdl"}
+	(define "barrels_placer"
+		{place "%name"
+			{entity "%entity"}
+			{linkbone "%name"}
+		}
+	)
+	{placer
+		("barrels_placer" name(f1) entity(barrel3))
+		("barrels_placer" name(b1) entity(barrel5))
+		("barrels_placer" name(b2) entity(barrel))
+		("barrels_placer" name(b3) entity(barrel7))
+		("barrels_placer" name(b4) entity(barrel5))
+		("barrels_placer" name(b5) entity(barrel))
+		("barrels_placer" name(b6) entity(barrel1a))
+		("barrels_placer" name(t1) entity(barrel1a))
+		("barrels_placer" name(t2) entity(barrel5))
+		("barrels_placer" name(t3) entity(barrel5))
+		("barrels_placer" name(r1) entity(barrel2))
+	}
+}

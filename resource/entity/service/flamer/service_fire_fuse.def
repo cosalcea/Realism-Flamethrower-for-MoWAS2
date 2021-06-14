@@ -1,0 +1,21 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {disableLinked 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "particle.firefuse"}
+	{volume "body"
+		{sphere 30}
+		{able clear {overlap}}
+		{bone "basis"}
+	}
+	{body
+		{proper body}
+		{permit body}
+	}
+	{extender "stuff"
+		{item "fire"}
+	}
+	{props "fire_service" "fire_fuse"}
+	; {tag "fire_fuse"}
+}

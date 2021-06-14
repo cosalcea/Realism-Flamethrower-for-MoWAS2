@@ -1,0 +1,16 @@
+{fx
+	{particleview "burner particles"
+		{entitygenerator
+			{totalparticles 15}
+			{emissionarea
+				{alpha0 0.01}
+				{alpha1 0.01}
+				{speed 0.25}
+			}
+			{particleinit
+				{speed 75} ; 30/0.4
+			}
+			{entity "fx_piece_flame_goh"}
+		}
+	}
+}

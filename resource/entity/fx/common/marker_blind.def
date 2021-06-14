@@ -1,0 +1,22 @@
+{fx
+	{spriteview
+		{sprite "$/particle/blind"
+			{timer
+				{mode play loop }
+				{duration 1}
+			}
+			{light 0.5}
+			{visibility 1
+				{peak
+					{min 0.25}
+					{max 0.75}
+				}
+			}
+			{scalex 0.45}
+			{scaley 0.4}
+		}
+		{offset 0 0 60}
+		{halo}
+		{autovisible}
+	}
+}

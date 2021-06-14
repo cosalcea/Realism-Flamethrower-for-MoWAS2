@@ -1,0 +1,19 @@
+{from "pattern throwable"
+	{tag "fg"}
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 17}
+		{startAngle 5}
+		{constantSpeed 12.5}
+		{spreading 1.7}
+	}
+	{damage blastwave
+		{energy 2.0} ; kg
+		{area 0.5 5.0}
+	}
+	{possibleDamageRadius 0.1}
+}

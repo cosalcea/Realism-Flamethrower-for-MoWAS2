@@ -1,0 +1,78 @@
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "f1"
+			{Position 37	-5	0}
+			{Orientation
+				1	-0.4	0
+				0.4	1	0
+				0	0	1
+			}
+		}
+		{bone "b1"
+			{Position 20	16	0}
+		}
+		{bone "b2"
+			{Position 18.5	0	0}
+		}
+		{bone "b3"
+			{Position 15	-16	0}
+		}
+		{bone "b4"
+			{Position 4		16	0}
+		}
+		{bone "b5"
+			{Position 2.5	0	0}
+		}
+		{bone "b6"
+			{Position -1	-16	0}
+		}
+		{bone "b7"
+			{Position -12	16	0}
+		}
+		{bone "b8"
+			{Position -13.5	0	0}
+		}
+		{bone "b9"
+			{Position -17	-16	0}
+		}
+		{bone "b10"
+			{Position -29.5	-4	0}
+		}
+		{bone "t1"
+			{Position 10	7	25}
+		}
+		{bone "t2"
+			{Position 16	-8	25}
+		}
+		{bone "t3"
+			{Position -6	7	25}
+		}
+		{bone "t4"
+			{Position 0		-8	25}
+		}
+		{bone "t5"
+			{Position -16	-8	25}
+		}
+		{bone "r1"
+			{Position -30	20	0}
+			{Orientation
+				1	-0.2	0
+				0.2	1	0
+				0	0	1
+			}
+		}
+		{bone "r2"
+			{Position -30	-28	0}
+			{Orientation
+				0.4	1	0
+				-1	0.4	0
+				0	0	1
+			}
+		}
+	}
+}

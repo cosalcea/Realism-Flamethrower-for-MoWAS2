@@ -1,0 +1,9 @@
+{item
+	{tag "molotov_coctail"}
+	{desc "To trigger Molotov effects."}
+	{entity "dummy_molotov_detonation"}
+	{damage blastwave
+		{energy 0.01} ; kg
+		{area 2 2}
+	}
+}

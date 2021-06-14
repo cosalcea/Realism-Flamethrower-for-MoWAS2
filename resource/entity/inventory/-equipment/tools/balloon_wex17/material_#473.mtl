@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "cybertenko_flamethrowers_wextank"}
+	{blend none}
+}

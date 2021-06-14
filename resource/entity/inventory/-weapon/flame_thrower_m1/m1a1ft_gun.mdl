@@ -1,0 +1,71 @@
+;Exported by: Cosalcea
+;Date:        Wed Apr  7 02:02:21 2021
+;File:        F:\Library\3D Objects\scenes\smallarms.max
+{Skeleton
+	{bone "m1a1ft_gun"
+		{parameters "CommonMesh;ID=flamethrower;"}
+		{Orientation
+			1.5	0	0
+			0	-1.5	0
+			0	0	1.5
+		}
+		{VolumeView "m1a1ft_gun.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				0.67	0	0
+				0	0	-0.67
+				0	0.67	0
+				3.9676	1.02471	0
+			}
+		}
+		{bone "foresight3"
+			{parameters "Voxels=0;"}
+			{Position 20.713	1.90002	-0.0212487}
+		}
+	}
+}
+{Volume "body"
+	{Box 11.3055 3.29286 0.856143}
+	{Bone "m1a1ft_gun"}
+	{Matrix34
+		1.2462	0	0
+		0	0.406533	0
+		0	0	0.863334
+		6.83116	1.00243	-0.0267716
+	}
+}
+{Volume "select"
+	{Box 11.3055 3.29286 0.856143}
+	{Bone "m1a1ft_gun"}
+	{Matrix34
+		1.32244	0	0
+		0	1.05	0
+		0	0	1.05
+		6.83116	1.00243	-0.0267716
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 12.5 -3 20}
+			{lookat 12.5 -3 0}
+			{fov 60}
+			{horizon 20}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -3.59194	-6.779	38.4499}
+			}
+			{"1"
+				{type point}
+				{position 28.4329	4.43645	15.6907}
+			}
+			{"2"
+				{type directional}
+				{direction 0.0217664	-0.499506	0.00449589}
+			}
+		}
+	}
+}

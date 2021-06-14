@@ -1,0 +1,244 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {state 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "particle.firemarker"}
+	{bone "basis"
+		{bone "checker"
+			{position 15 0 0}
+			{bone "f"
+				{Matrix34
+					-1	0	0
+					0	0	-1
+					0	-1	0
+					0   0   0
+				}
+				{bone "f1"
+					{position -1 0 0}
+				{bone "f2"
+					{position -1 0 0}
+				{bone "f3"
+					{position -1 0 0}
+				{bone "f4"
+					{position -1 0 0}
+				{bone "f5"
+					{position -1 0 0}
+				{bone "f6"
+					{position -1 0 0}
+				{bone "f7"
+					{position -1 0 0}
+				{bone "f8"
+					{position -1 0 0}
+				{bone "f9"
+					{position -1 0 0}
+				{bone "f10"
+					{position -1 0 0}
+				{bone "f11"
+					{position -1 0 0}
+				{bone "f12"
+					{position -1 0 0}
+				{bone "f13"
+					{position -1 0 0}
+				{bone "f14"
+					{position -1 0 0}
+				{bone "f15"
+					{position -1 0 0}
+				{bone "f16"
+					{position -1 0 0}
+				{bone "f17"
+					{position -1 0 0}
+				{bone "f18"
+					{position -1 0 0}
+				{bone "f19"
+					{position -1 0 0}
+				{bone "f20"
+					{position -1 0 0}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+			}
+			{bone "r"
+				{Matrix34
+					-1	0	0
+					0	0	-1
+					0	-1	0
+					0   0   0
+				}
+				{bone "r1"
+					{position 1 0 0}
+				{bone "r2"
+					{position 1 0 0}
+				{bone "r3"
+					{position 1 0 0}
+				{bone "r4"
+					{position 1 0 0}
+				{bone "r5"
+					{position 1 0 0}
+				{bone "r6"
+					{position 1 0 0}
+				{bone "r7"
+					{position 1 0 0}
+				{bone "r8"
+					{position 1 0 0}
+				{bone "r9"
+					{position 1 0 0}
+				{bone "r10"
+					{position 1 0 0}
+				{bone "r11"
+					{position 1 0 0}
+				{bone "r12"
+					{position 1 0 0}
+				{bone "r13"
+					{position 1 0 0}
+				{bone "r14"
+					{position 1 0 0}
+				{bone "r15"
+					{position 1 0 0}
+				{bone "r16"
+					{position 1 0 0}
+				{bone "r17"
+					{position 1 0 0}
+				{bone "r18"
+					{position 1 0 0}
+				{bone "r19"
+					{position 1 0 0}
+				{bone "r20"
+					{position 1 0 0}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+				}
+			}
+		}
+	}
+	{volume "body"
+		{sphere 0.1}
+		{able clear {contact}}
+		{Bone "checker"}
+		{material "dummy"}
+		{density 0}
+	}
+	(define "bodyc"
+		{volume "bodyf%0"
+			{sphere 0.1}
+			{able clear {contact}}
+			{Bone "f%0"}
+			{material "dummy"}
+			{density 0}
+		}
+		{volume "bodyr%0"
+			{sphere 0.1}
+			{able clear {contact}}
+			{Bone "r%0"}
+			{material "dummy"}
+			{density 0}
+		}
+	)
+	("bodyc" args 1)
+	("bodyc" args 2)
+	("bodyc" args 3)
+	("bodyc" args 4)
+	("bodyc" args 5)
+	("bodyc" args 6)
+	("bodyc" args 7)
+	("bodyc" args 8)
+	("bodyc" args 9)
+	("bodyc" args 10)
+	("bodyc" args 11)
+	("bodyc" args 12)
+	("bodyc" args 13)
+	("bodyc" args 14)
+	("bodyc" args 15)
+	{volume "bodyr16"
+		{sphere 0.1}
+		{able clear {contact}}
+		{Bone "r16"}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "bodyr17"
+		{sphere 0.1}
+		{able clear {contact}}
+		{Bone "r17"}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "bodyr18"
+		{sphere 0.1}
+		{able clear {contact}}
+		{Bone "r18"}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "bodyr19"
+		{sphere 0.1}
+		{able clear {contact}}
+		{Bone "r19"}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "bodyr20"
+		{sphere 0.1}
+		{able clear {contact}}
+		{Bone "r20"}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "blocker"
+		{sphere 1}
+		{able clear}
+		{Bone "basis"}
+		{position -20 0 0}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "blocker2"
+		{sphere 1}
+		{able clear}
+		{Bone "basis"}
+		{position -10 0 0}
+		{material "dummy"}
+		{density 0}
+		{tags "blocker"}
+	}
+	{simulatorId "grenade"}
+	{body
+		{proper body sensible}
+		{permit body}
+	}
+	{props "flamer_blocker"}
+}

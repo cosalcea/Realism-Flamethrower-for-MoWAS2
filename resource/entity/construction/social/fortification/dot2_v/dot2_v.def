@@ -1,0 +1,187 @@
+{construction
+	(include "/properties/building.inc")
+	{props "concrete"}
+	{obstacleid "unbreakable"}
+	("armor_heavy" args 1.0)
+	{Extension "dot2_v.mdl"}
+
+	{Volume "roof"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {bullet}{blast}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body10"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body9"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body7"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body8"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body5"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body6"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body4"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body15"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+		{Matrix34
+			0	1	0
+			-1	0	0
+			0	0	1.25
+			73.7776	0.832397	29.6708
+		}
+	}
+	{Volume "body13"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+		{Matrix34
+			-0.707107	0.707107	0
+			-0.707107	-0.707107	0
+			0	0	1.25
+			64.6323	61.3671	29.6708
+		}
+	}
+	{Volume "body12"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+		{Matrix34
+			-1	0	0
+			0	-1	0
+			0	0	1.25
+			31.2682	-70.3185	29.6708
+		}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+	}
+	{Volume "body11"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+		{Matrix34
+			-1	0	0
+			0	-1	0
+			0	0	1.25
+			31.2375	70.6449	29.6708
+		}
+	}
+	{Volume "body14"
+		{Tags  "body"}
+		{Thickness 50}
+		{able clear {visible}{bullet}{blast}{obstacle}{contact}{contact_ground}{throwing}}
+		{Matrix34
+			0.707107	0.707107	0
+			-0.707107	0.707107	0
+			0	0	1.25
+			64.3832	-60.4499	29.6708
+		}
+	}
+	{Extender "land_patch"
+		{TerrainType "road" "road"}
+	}
+
+	{Volume "hole1"
+		{bone "dot2"}
+		{position -75 0 40}
+		{box 20 30 40}
+		{able clear {hole}}
+	}
+	{Volume "hole2"
+		{bone "dot2"}
+		{position 5 0 40}
+		{box 20 30 40}
+		{able clear {hole}}
+	}
+	{Volume "hole3"
+		{bone "dot2"}
+		{position 80 0 40}
+		{box 20 160 40}
+		{able clear {hole}}
+	}
+	{Volume "hole4"
+		{bone "dot2"}
+		{position 40 80 40}
+		{box 70 20 40}
+		{able clear {hole}}
+	}
+	{Volume "hole5"
+		{bone "dot2"}
+		{position 40 -80 40}
+		{box 70 20 40}
+		{able clear {hole}}
+	}
+	{Volume "hole-1"
+		{bone "dot2"}
+		{position -75 0 40}
+		{box 1 30 40}
+		{able clear {holed}{contact}{bullet}}
+	}
+	{Volume "hole-2"
+		{bone "dot2"}
+		{position 5 0 40}
+		{box 1 30 40}
+		{able clear {holed}{contact}{bullet}}
+	}
+	{Volume "hole-3"
+		{bone "dot2"}
+		{position 80 0 40}
+		{box 1 160 40}
+		{able clear {holed}{contact}{bullet}}
+	}
+	{Volume "hole-4"
+		{bone "dot2"}
+		{position 40 80 40}
+		{box 70 1 40}
+		{able clear {holed}{contact}{bullet}}
+	}
+	{Volume "hole-5"
+		{bone "dot2"}
+		{position 40 -80 40}
+		{box 70 1 40}
+		{able clear {holed}{contact}{bullet}}
+	}
+}

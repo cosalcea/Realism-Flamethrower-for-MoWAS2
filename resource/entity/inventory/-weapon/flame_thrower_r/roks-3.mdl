@@ -1,0 +1,59 @@
+;Exported by: Sergey
+;Date:        Mon May 02 07:47:31 2016
+;File:        C:\Users\user\Documents\3dsMax\scenes\_resource_MoW_old\inventory_-weapon\roks-3\roks_3.max
+{Skeleton
+	{bone "roks_3"
+		{Orientation
+			1.05	0	0
+			0	-1.05	0
+			0	0	1.05
+		}
+		{VolumeView "roks_3.ply"}
+		{bone "foresight3"
+			{Position 15.7737	1.7309	0}
+		}
+		{bone "handle"
+			{Position 6.48926	1.98656	-0.526827}
+		}
+	}
+}
+{Volume "body"
+	{Box 21.9155 4.34207 1.59379}
+	{Bone "roks_3"}
+	{Position 4.82713	0.344161	-0.10964}
+}
+{Volume "select"
+	{Box 22.6677 5.19681 1.91461}
+	{Bone "roks_3"}
+	{Position 4.82713	0.334307	-0.108639}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.86395	3.219	29.2437}
+			{lookat 5.66702	1.05035	3.35244}
+			{fov 45}
+			{horizon 18}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0219031	0.223464	-0.446748}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 5.97928	2.62626	29.1451}
+			{lookat 5.72431	0.703429	6.08228}
+			{fov 45}
+			{horizon 7.99998}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0356601	0.223026	-0.44608}
+			}
+		}
+	}
+}

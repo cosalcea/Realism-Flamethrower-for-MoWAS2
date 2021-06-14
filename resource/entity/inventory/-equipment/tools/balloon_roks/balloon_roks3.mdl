@@ -1,0 +1,73 @@
+;Exported by: Sergey
+;Date:        Mon May 02 09:20:58 2016
+;File:        C:\Users\user\Documents\3dsMax\scenes\_resource_MoW_old\inventory_-weapon\-weapon\ROKS\roks-3b.max
+{Skeleton
+	{bone "roks3_b"
+		{Orientation
+			1.1	0	0
+			0	-1.1	0
+			0	0	1.1
+		}
+		{VolumeView "roks3_b.ply"}
+		{Position -0.3 0.3 0.3}
+		{bone "handle"
+			{Position 11.6781	2.85176	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 10.3979 8.00584 4.13386}
+	{Bone "roks3_b"}
+	{Position 6.42902	2.73731	0.429479}
+}
+{Volume "select"
+	{Box 11.3026 8.63412 4.33071}
+	{Bone "roks3_b"}
+	{Position 6.42902	2.73731	0.437984}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 12.4438	-2.61006	23.7728}
+			{lookat 5.66011	-3.13912	-3.273056}
+			{fov 22.6199}
+			{horizon 179.31}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.385895	0.00951659	-0.317795}
+			}
+			{"1"
+				{type directional}
+				{direction 0.465016	-0.0812325	-0.164806}
+			}
+			{"2"
+				{type directional}
+				{direction -0.32482	0.203069	0.321333}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 27.3522	-3.36277	73.5217}
+			{lookat 6.16668	-1.8921	0.13177}
+			{fov 32.6199}
+			{horizon 179.31}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.385895	0.00951659	-0.317795}
+			}
+			{"1"
+				{type directional}
+				{direction 0.465016	-0.0812325	-0.164806}
+			}
+			{"2"
+				{type directional}
+				{direction -0.32482	0.203069	0.321333}
+			}
+		}
+	}
+}

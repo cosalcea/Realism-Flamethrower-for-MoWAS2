@@ -1,0 +1,8 @@
+{from "pattern throwable"
+	{throw
+		{range 17}
+		{startAngle 5}
+		{constantSpeed 12.5}
+		{spreading 1.7}
+	}
+}

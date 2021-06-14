@@ -1,0 +1,49 @@
+{game_entity
+	{Extension "barrels2.mdl"}
+	(define "barrels_placer"
+		{place "%name"
+			{entity "%entity"}
+			{linkbone "%name"}
+		}
+	)
+	{placer
+		("barrels_placer" name(f1) entity(barrel3_a))
+		("barrels_placer" name(b1) entity(barrel5))
+		("barrels_placer" name(b2) entity(barrel))
+		("barrels_placer" name(b3) entity(barrel7))
+		("barrels_placer" name(b4) entity(barrel5))
+		("barrels_placer" name(b5) entity(barrel))
+		("barrels_placer" name(b6) entity(barrel1a))
+		("barrels_placer" name(b7) entity(barrel4))
+		("barrels_placer" name(b8) entity(barrel6))
+		("barrels_placer" name(b9) entity(barrel6))
+		("barrels_placer" name(b10) entity(barrel3))
+		("barrels_placer" name(t1) entity(barrel1a))
+		("barrels_placer" name(t2) entity(barrel5))
+		("barrels_placer" name(t3) entity(barrel5))
+		("barrels_placer" name(t4) entity(barrel3))
+		("barrels_placer" name(t5) entity(barrel3))
+		("barrels_placer" name(r1) entity(barrel2_a))
+		("barrels_placer" name(r2) entity(barrel1a_a))
+	}
+	; {extender "structure"
+	; 	{place "f1" "barrel3_a"}
+	; 	{place "b1" "barrel5"}
+	; 	{place "b2" "barrel"}
+	; 	{place "b3" "barrel7"}
+	; 	{place "b4" "barrel5"}
+	; 	{place "b5" "barrel"}
+	; 	{place "b6" "barrel1a"}
+	; 	{place "b7" "barrel4"}
+	; 	{place "b8" "barrel6"}
+	; 	{place "b9" "barrel6"}
+	; 	{place "b10" "barrel3"}
+	; 	{place "t1" "barrel1a"}
+	; 	{place "t2" "barrel5"}
+	; 	{place "t3" "barrel5"}
+	; 	{place "t4" "barrel3"}
+	; 	{place "t5" "barrel3"}
+	; 	{place "r1" "barrel2_a"}
+	; 	{place "r2" "barrel1a_a"}
+	; }
+}

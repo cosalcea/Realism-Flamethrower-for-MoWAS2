@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "roks-2_v2"}
+	{specular "roks-2_v2_sp"}
+	{color "230 230 230 163"}
+	{blend test}
+}

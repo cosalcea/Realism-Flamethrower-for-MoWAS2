@@ -1,0 +1,72 @@
+;Exported by:	 guita
+;Date:			 31.07.2020 22:12:27
+;File:			 D:\Git\3D_Scenes\GoH_3D_human_export\3d_weapons\flammenwerfer35\Flammenwerfer35_export.max
+{skeleton
+	{bone "nozzle"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "nozzle.ply"}
+			{VolumeView "nozzle_lod1.ply"}
+			{VolumeView "nozzle_lod2.ply"}
+		}
+		{bone "foresight3"
+			{Position 17.1447 	 0.864 	 0.0062}
+		}
+		{bone "handle"
+			{matrix34
+				1 	 0 	 0
+				0 	 0 	 -1
+				0 	 1 	 0
+				6.8772 	 1.1354 	 -0.027
+			}
+		}
+	}
+}
+{volume "body"
+	{cylinder 0.674604 20.125}
+	{bone "nozzle"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		6.9901 	 0.8753 	 -0.0136
+	}
+}
+{volume "select"
+	{cylinder 0.674604 20.125}
+	{bone "nozzle"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		6.9901 	 0.8753 	 -0.0136
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 15.0127 	 64.2348 	 245.47}
+			{lookat 7.56216 	 -1.4693 	 0.2979}
+			{fov 4.56696}
+			{horizon 15}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.9624 	 4.4329 	 -0.5498}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0937 	 -0.1381 	 -0.4713}
+			}
+			{"2"
+				{type point}
+				{position 1.2305 	 -11.328 	 6.7421}
+			}
+		}
+	}
+}

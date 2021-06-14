@@ -1,0 +1,6 @@
+{item
+	{tag "napalm" "fuel" "hmgun" "grenade" "ap"}
+	{desc "desc/flamer/napalm_thick"}
+	{inventory {noView}}
+	{mass 0.14}
+}

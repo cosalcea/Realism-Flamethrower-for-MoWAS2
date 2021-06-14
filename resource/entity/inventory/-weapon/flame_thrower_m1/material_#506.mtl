@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "m1a1ft_3p_c"}
+	{bump "m1a1ft_3p_b"}
+	{blend none}
+}

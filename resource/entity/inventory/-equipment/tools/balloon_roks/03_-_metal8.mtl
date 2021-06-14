@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "metal8"}
+	{specular "metal3_sp"}
+	{color "230 230 230 163"}
+	{blend none}
+}

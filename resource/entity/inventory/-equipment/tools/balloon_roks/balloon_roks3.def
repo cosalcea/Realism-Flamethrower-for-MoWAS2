@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "balloon_roks3.mdl"}
+	{volume "body"
+		{thickness 1}
+	}
+	{props "capacity" "balloon"}
+	{extender "stuff"
+		{item "balloon_r3"}
+	}
+	{body {proper body sensible} {permit body}}
+	{tag "roks3"}
+}

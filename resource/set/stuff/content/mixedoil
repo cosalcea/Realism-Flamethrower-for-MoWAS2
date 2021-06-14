@@ -1,0 +1,6 @@
+{item
+	{tag "liquid_fuel" "fuel" "hmgun" "grenade" "ap"}
+	{desc "desc/flamer/mixedoil"}
+	{inventory {noView}}
+	{mass 0.14}
+}

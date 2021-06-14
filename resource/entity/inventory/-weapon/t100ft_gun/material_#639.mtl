@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "t_3rd_m2_diff"}
+	{bump "T_3rd_M2_NORM"}
+	{specular "T_3rd_M2_SPEC"}
+	{color "230 230 230 25"}
+	{blend none}
+}

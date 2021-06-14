@@ -1,0 +1,44 @@
+{actor
+	{extension "/properties/piece.ext"}
+	{skeleton
+		{bone "basis"
+			{bone "top"
+				{position 10 0 10}
+			}
+			{bone "bottom"
+				{position 0 0 -200}
+			}
+		}
+	}
+	{volume "body"
+		{sphere 2}
+		{able clear {blast}{nolook}}
+		{bone "bottom"}
+	}
+	{Simulation {Able 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{mass 0}
+
+	{extender "inventory"
+		{box
+			{Size 1 1}
+			{weight 1}
+	        {item "flamer_distributor_30"}
+		}
+	}
+	{placer
+		{place "kit"
+			{entity "flamer_supply_kit_m35"}
+			{linkbone "top"}
+		}
+	}
+
+	{able "-select" "-minimap"}
+	{brain "vehicle"
+		{state "vehicle"}
+	}
+	{props "vehicle"}
+	{props "flamer_supply"}
+}

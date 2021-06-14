@@ -1,0 +1,4 @@
+{from "flame_thrower"
+	{desc "desc/flamer/flame_thrower_f"}
+	{entity "schilt_gun"}
+}

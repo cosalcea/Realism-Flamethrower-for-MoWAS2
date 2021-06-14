@@ -1,0 +1,12 @@
+{action
+	{target ground}
+	{fx "flashred"}
+	{able_vehicle}
+	{notifyselect}
+	{button}
+	{instant
+		{if props "vehicle"
+			{effect "supply_mounted_flamer_fuel_thick"}
+		}
+	}
+}

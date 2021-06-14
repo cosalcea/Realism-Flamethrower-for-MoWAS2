@@ -1,0 +1,56 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {state 1}}
+	{constrain ground}
+	{obstacleID "nothing"}
+	{collider "particle.fire"}
+
+	{volume "core"
+		{sphere 0.1}
+		{able clear {contact} {overlap} {contact_ground}}
+		{bone "basis"}
+		{material "dummy"}
+	}
+	{volume "body"
+		{sphere 1}
+		{able clear {contact 0} {overlap 0}}
+		{bone "basis"}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "body_outer"
+		{sphere 10}
+		{able clear {contact 0} {overlap 0}}
+		{bone "basis"}
+		{material "dummy"}
+		{density 0}
+	}
+	{placer
+		{place "addition1"
+			{entity "piece_fire_ground_big"}
+			{linkbone "basis"}
+			{openForCrush}
+			{obstacle disable}
+		}
+		; {place "addition2"
+		; 	{entity "piece_fire_napalm"}
+		; 	{linkbone "basis"}
+		; 	{openForCrush}
+		; 	{obstacle disable}
+		; }
+	}
+
+	{simulatorId "grenade"}
+	{body
+		{proper body sensible}
+		{permit body}
+	}
+
+	{extender "stuff"
+		{item "fire"}
+	}
+
+	{props "nocover"}
+	{props "flamer_fire" "fire_napalm_thin"}
+	; {tag "fire"} ; debug
+}

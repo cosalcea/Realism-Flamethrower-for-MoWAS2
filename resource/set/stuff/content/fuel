@@ -1,0 +1,6 @@
+{item
+	{tag "motor" "mixedoil" "mixedoil_thick" "napalm_thin" "napalm_thick" "hmgun" "grenade" "ap"}
+	{desc "desc/flamer/fuel"}
+	{inventory {noView}}
+	{mass 0.14}
+}

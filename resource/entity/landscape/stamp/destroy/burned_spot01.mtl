@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "burned_spot01"
+		{Axis 256 256}
+	}	 {Blend blend}
+}

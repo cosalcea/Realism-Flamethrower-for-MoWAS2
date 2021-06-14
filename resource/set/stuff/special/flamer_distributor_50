@@ -1,0 +1,15 @@
+{item
+	{tag "flamer_distributor"}
+	{desc "It will explode sooooooooon."}
+	{entity "service_flamer_distributor"}
+	{inventory
+		{size 1 1}
+		{weight 1}
+		{fsm "stuff"}
+		{link_bone "bottom"}
+	}
+	{damage blastwave
+		{energy 0.01} ; kg
+		{area 0.5 0.5}
+	}
+}

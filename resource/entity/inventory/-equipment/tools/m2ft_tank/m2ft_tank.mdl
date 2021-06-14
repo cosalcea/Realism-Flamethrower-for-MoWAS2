@@ -1,0 +1,75 @@
+;Exported by: Cosalcea
+;Date:        Wed Apr 28 02:23:36 2021
+;File:        F:\Library\3D Objects\scenes\smallarms.max
+{Skeleton
+	{bone "m2ft_tank"
+		{parameters "CommonMesh;ID=flamethrower;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m2ft_tank.ply"}
+		{bone "handle"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-0.997637	-0.0626845	-0.028125
+				0.0631508	-0.997876	-0.0160076
+				-0.0270618	-0.0177459	0.999476
+				5.60684	2.13322	-1.49637
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.54579 7.79116 4.54484}
+	{Bone "m2ft_tank"}
+	{Matrix34
+		1.5354	0.0964742	0
+		-0.0615732	0.979942	0.00816523
+		0.000431473	-0.00686672	0.707685
+		6.12284	2.28113	-0.628895
+	}
+}
+{Volume "select"
+	{Box 5.54579 7.79116 4.54484}
+	{Bone "m2ft_tank"}
+	{Matrix34
+		1.8951	0.119076	0
+		-0.0804833	1.2809	0.0132549
+		0.000890816	-0.0141781	1.81468
+		5.62957	2.25316	0.0416938
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -24.7518	37.5591	490.83}
+			{lookat 6.11339	-1.914	3.56869}
+			{fov 1.08523}
+			{horizon 48.2002}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.498105	-0.0332467	-0.0280392}
+			}
+			{"1"
+				{type point}
+				{position -6.87403	22.4224	-31.0816}
+			}
+			{"2"
+				{type point}
+				{position 10.6379	51.7876	10.3603}
+			}
+			{"3"
+				{type point}
+				{position 46.11339	-1.914	3.56869}
+			}
+			{"4"
+				{type point}
+				{position 46.11339	-1.914	3.56869}
+			}
+		}
+	}
+}

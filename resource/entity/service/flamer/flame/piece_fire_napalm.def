@@ -1,0 +1,27 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {disableLinked 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "particle.fireservice"}
+
+	{volume "body"
+		{sphere 10}
+		{able clear {contact 0}}
+		{bone "basis"}
+		{material "dummy"}
+		{density 0}
+	}
+
+	{body
+		{proper body}
+		{permit body}
+	}
+
+	{extender "stuff"
+		{item "fire"}
+	}
+
+	{props "fire_addition" "fire_napalm"}
+	; {tag "addition"}
+}

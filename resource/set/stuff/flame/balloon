@@ -1,0 +1,18 @@
+{item
+	; Prototype
+	{desc "Fuel tank Prototype"}
+	{tag "capacity balloon"}
+	{tag "smallitemin1hand"}
+	{tag "missile"}
+	{filling "fuel" 150}
+	{entity "balloon"}
+	{inventory
+		{size 4 5}
+		{weight 100}
+		{link_bone "gun_back"}
+		{fsm "stuff"}
+	}
+	{mass 5}
+
+	{preloaded}
+}

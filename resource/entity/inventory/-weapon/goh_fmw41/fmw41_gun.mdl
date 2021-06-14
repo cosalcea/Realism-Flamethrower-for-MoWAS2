@@ -1,0 +1,72 @@
+;Exported by:	 Carlos
+;Date:			 26.08.2020 12:10:26
+;File:			 T:\GoH_3D_human_export\3d_weapons\flammenwerfer41\Flammenwerfer41_export.max
+{skeleton
+	{bone "nozzle"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "nozzle.ply"}
+			{VolumeView "nozzle_lod1.ply"}
+			{VolumeView "nozzle_lod2.ply"}
+		}
+		{bone "foresight3"
+			{Position 18.6762 	 1.0122 	 -0.1826}
+		}
+		{bone "handle"
+			{matrix34
+				1 	 0 	 0
+				0 	 0 	 -1
+				0 	 1 	 0
+				8.2276 	 1.8972 	 -0.2159
+			}
+		}
+	}
+}
+{volume "body"
+	{cylinder 0.603999 20.119}
+	{bone "nozzle"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		8.3436 	 1.037 	 -0.2411
+	}
+}
+{volume "select"
+	{cylinder 0.603999 20.119}
+	{bone "nozzle"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		8.3436 	 1.037 	 -0.2411
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 16.9321 	 61.386 	 245.818}
+			{lookat 12.5411 	 -4.3179 	 -10.6465}
+			{fov 3.06696}
+			{horizon 20}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.3128 	 3.671 	 -0.7386}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0937 	 -0.1381 	 -0.4713}
+			}
+			{"2"
+				{type point}
+				{position 2.5809 	 -12.0898 	 6.5532}
+			}
+		}
+	}
+}

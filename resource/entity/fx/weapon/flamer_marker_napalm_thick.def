@@ -1,0 +1,14 @@
+{fx
+	{particleview "flamer marker"
+		{entitygenerator
+			{totalparticles 50}
+			{emissionarea
+				{speed 1}
+			}
+			{particleinit
+				{speed 187.5} ; 75/0.4
+			}
+			{entity "piece_flamer_marker_napalm_thick"}
+		}
+	}
+}

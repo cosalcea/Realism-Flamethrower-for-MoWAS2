@@ -1,0 +1,156 @@
+{fx
+	{#+ particleview "start fire"
+		{generator
+			{totalparticles 30}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 0}
+				{speed 2}
+			}
+			{particleinit
+				{speed 4.5}
+				{lifetime 0.25}
+			}
+		}
+		{mover
+			{damping 1.5}
+			{gravity
+				{value 0.03}
+			}
+			{nodependonwind}
+			{collisions
+				{objects}
+			}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/flash/flashssp3"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 1
+						{linear
+							{min 0.0025}
+							{max 0.025}
+						}
+					}
+					{redlight 1
+						{linear
+							{min 1}
+							{max 0.1}
+						}
+					}
+					{greenlight 1
+						{linear
+							{min 0.8}
+							{max 0.1}
+						}
+					}
+					{bluelight 1
+						{linear
+							{min 0.6}
+							{max 0}
+						}
+					}
+					{light 1
+						{npower
+							{min 1}
+							{max 0}
+							{pow 4}
+						}
+					}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "start fire"
+		{generator
+			{totalparticles 30}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 0}
+				{speed 2}
+			}
+			{particleinit
+				{speed 4.5}
+				{lifetime 0.25}
+			}
+		}
+		{mover
+			{damping 1.5}
+			{gravity
+				{value 0.03}
+			}
+			{nodependonwind}
+			{collisions
+				{objects}
+			}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot5"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 1
+						{linear
+							{min 0.0025}
+							{max 0.025}
+						}
+					}
+					{redlight 1
+						{linear
+							{min 1}
+							{max 0.1}
+						}
+					}
+					{greenlight 1
+						{linear
+							{min 0.8}
+							{max 0.1}
+						}
+					}
+					{bluelight 1
+						{linear
+							{min 0.6}
+							{max 0}
+						}
+					}
+					{light 1
+						{npower
+							{min 1}
+							{max 0}
+							{pow 4}
+						}
+					}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "fire drops"
+		{entitygenerator
+			{totalparticles 25}
+			{emissionarea
+				{alpha0 0}
+				{alpha1 0}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 25 15}
+				{lifetime 0.5}
+			}
+			{entity "fx_piece"
+				{fx "flame_drop_cby2013"}
+			}
+			{timetolive 0.5}
+			{## ownerspeed}
+		}
+		{## offset 0 0 10}
+	}
+}

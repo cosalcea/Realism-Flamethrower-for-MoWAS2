@@ -1,0 +1,12 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {disableLinked 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{volume "blocker"
+		{sphere 2}
+		{able clear {bullet 0}}
+		{bone "basis"}
+	}
+}

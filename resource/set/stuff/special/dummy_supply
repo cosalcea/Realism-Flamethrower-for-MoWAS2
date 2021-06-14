@@ -1,0 +1,9 @@
+{item
+	{tag "sharp_edge"}
+	{desc "desc/flamer/flamer_supply"}
+	{entity "dummy_item"}
+	{inventory
+		{size 2 2}
+		{fsm "stuff"}
+	}
+}

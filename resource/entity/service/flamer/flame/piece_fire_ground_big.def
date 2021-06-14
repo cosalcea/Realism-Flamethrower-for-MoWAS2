@@ -1,0 +1,35 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {disableLinked 1}}
+	{constrain ground}
+	{obstacleID "fire_nopass"}
+	{collider "particle.fireservice"}
+
+	{volume "body"
+		{sphere 45}
+		{able clear {contact 0} {overlap 0} {visible 0}}
+		{bone "basis"}
+		{material "dummy"}
+		{density 0}
+	}
+	{volume "body_obstacle"
+		{sphere 50}
+		{able clear {obstacle}}
+		{bone "basis"}
+		{material "dummy"}
+		{density 0}
+	}
+
+	{body
+		{proper body}
+		{permit body}
+	}
+
+	{extender "stuff"
+		{item "fire"}
+	}
+
+	{props "nocover"}
+	{props "fire_addition" "fire_ground"}
+	; {tag "addition"}
+}

@@ -1,0 +1,13 @@
+{from "pattern throwable"
+	{tag "ic ap"}
+	{inventory {size 2 1}}
+	{entity "molotov_coctail"}
+	{mass 1.0}
+	{throw
+		{range 14}
+		{startAngle 5}
+		{constantSpeed 11.5}
+		{spreading 1.4}
+	}
+	{possibleDamageRadius 4}
+}

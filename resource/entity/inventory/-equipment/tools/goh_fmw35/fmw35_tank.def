@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{extension "fmw35_tank.mdl"}
+	{volume "body"
+		{thickness 1}
+	}
+	{props "capacity" "balloon"}
+	{extender "stuff"
+		{item "balloon_g35"}
+	}
+	{body {proper body sensible} {permit body}}
+	{tag "fmw35"}
+}

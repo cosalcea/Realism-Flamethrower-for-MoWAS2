@@ -1,0 +1,14 @@
+{fx
+	{particleview "flamer marker"
+		{entitygenerator
+			{totalparticles 50}
+			{emissionarea
+				{speed 1}
+			}
+			{particleinit
+				{speed 212.5} ; 85/0.4
+			}
+			{entity "piece_flamer_marker_liquid_tank"}
+		}
+	}
+}

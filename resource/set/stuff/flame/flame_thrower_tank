@@ -1,0 +1,24 @@
+{from "flame_thrower"
+	{desc "Tank Flamethrower Prototype"}
+	{entity "flame_thrower_g"}
+	{mass 100} ; kg
+
+	{filling "mechanized_fuel" 0}
+
+	{gravity 3}
+	{speed 75}
+	{aimRange 30.5}
+	{maxRange 30.5}
+	{parameters "mixedoil_thick"
+		{aimRange 38.5}
+		{maxRange 38.5}
+	}
+	{parameters "napalm_thick"
+		{aimRange 38.5}
+		{maxRange 38.5}
+	}
+	{parameters "mixedoil"
+		{aimRange 35.5}
+		{maxRange 35.5}
+	}
+}

@@ -1,0 +1,5 @@
+{from "balloon"
+	{desc "desc/flamer/balloon_u"}
+	{entity "balloon_m1"}
+	{filling "napalm_thin" 150}
+}

@@ -1,0 +1,14 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {disableLinked 1}}
+	{constrain none}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{placer
+		{place "blocker"
+			{entity "service_shoot_blocker"}
+			{linkbone "basis"}
+		}
+	}
+	{props "shoot_blocker_shock"}
+}

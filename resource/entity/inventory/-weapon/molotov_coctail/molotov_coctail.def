@@ -1,0 +1,32 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	{extension "molotov_coctail.mdl"}
+	{extender "stuff"
+		{item "molotov_coctail"}
+	}
+	{nogroupmesh 1}
+	{props "contact" "molotov_coctail"}
+	{volume "body"
+		{able {bullet} {contact} {blast}}
+	}
+	{body {proper body sensible} {permit body}}
+
+	{Skeleton
+		{bone "fuse"
+			{Orientation
+				1	0	0
+				0	-1	0
+				0	0	1
+			}
+			{position 0 -4 0}
+		}
+	}
+	{placer
+		{place "addition1"
+			{entity "piece_fire_ground_molotov"}
+			{linkbone "root"}
+			{openForCrush}
+			{obstacle disable}
+		}
+	}
+}

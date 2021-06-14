@@ -1,0 +1,5 @@
+{from "flame_thrower"
+	{desc "desc/flamer/flame_thrower_r2"}
+	{tag "-showy"}
+	{entity "flame_thrower_r2"}
+}

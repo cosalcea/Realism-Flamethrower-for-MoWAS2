@@ -1,0 +1,6 @@
+{sound
+	{tag emotions}
+	{loudness "talk"}
+	{signal mandie 50}
+	{volume 0.6}
+}

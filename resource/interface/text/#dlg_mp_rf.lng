@@ -1,0 +1,61 @@
+{tags
+	{"mp"
+		{"presets"
+			{"unit"
+				{"all_fnl" "All / Unlimited Flamethrower"}
+				{"competitive_fnl" "Competitive / Unlimited Flamethrower"}
+			}
+		}
+	}
+
+	{"desc"
+		{"human"
+			{"mp"
+				{"usa"
+					{"flamer+" "<c(c3baae)>flamethrower infantry"}
+				}
+				{"eng"
+					{"flamer+" "<c(c3baae)>flamethrower infantry"}
+				}
+				{"rus"
+					{"flamer+" "<c(c3baae)>flamethrower infantry"}
+				}
+			}
+		}
+		{"squad"
+			{"flamers2(eng)" "Flamethrower infantry (Thickened fuel)"}
+			{"flamers2(rus)" "Flamethrower infantry (Thickened fuel)"}
+			{"flamers2(usa)" "Flamethrower infantry (Thickened fuel)"}
+			{"flamers_nl(eng)" "Flamethrower infantry"}
+			{"flamers2_nl(eng)" "Flamethrower infantry (Thickened fuel)"}
+			{"flamers_nl(ger)" "Flamethrower infantry"}
+			{"flamers_nl(jap)" "Flamethrower infantry"}
+			{"flamers_nl(rus)" "Flamethrower infantry"}
+			{"flamers2_nl(rus)" "Flamethrower infantry (Thickened fuel)"}
+			{"flamers_nl(usa)" "Flamethrower infantry"}
+			{"flamers2_nl(usa)" "Flamethrower infantry (Thickened fuel)"}
+			{"flamers_nl(ger2)" "Flamethrower infantry"}
+		}
+	}
+
+	{"info"
+		{"squad"
+			{"flamers(eng)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers2(eng)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers(ger)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers(jap)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers(rus)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers2(rus)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers(usa)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers2(usa)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers_nl(eng)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers2_nl(eng)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers_nl(ger)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers_nl(jap)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers_nl(rus)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers2_nl(rus)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers_nl(usa)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+			{"flamers2_nl(usa)" "This team of specialists comes equipped with a flamethrower which strikes terror into the hearts of the enemy. It is one of the deadliest weapons in close range combat, capable of igniting buildings and setting cover ablaze -- invaluable when seeking to ferret out the enemy."}
+		}
+	}
+}

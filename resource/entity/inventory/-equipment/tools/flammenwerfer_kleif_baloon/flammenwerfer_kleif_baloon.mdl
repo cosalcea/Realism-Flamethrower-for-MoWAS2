@@ -1,0 +1,98 @@
+;Exported by: Filippo
+;Date:        Sun Aug 31 12:11:36 2014
+;File:        C:\3dsmax7\scenes\flammenwerfer_kleif_baloon.max
+{Skeleton
+	{bone "flammenwerfer_kleif_baloon"
+		{parameters "CommonMesh ;Type = actor ;Model = entity/invetory/weapon/flammenwerfer_kleif_baloon;ID=rifle;"}
+		{Orientation
+			0.9	-0.1	0
+			-0.1	-0.9	0
+			0	0	0.9
+		}
+		{VolumeView "flammenwerfer_kleif_baloon.ply"}
+		{bone "handle"
+			{Matrix34
+				-1.1	0	0
+				0	-1.1	0
+				0	0	1.1
+				13.16837	0.449017	0.497856
+			}
+		}
+		{bone "body"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1.25
+				5.30668	3.78113	-1.507699
+			}
+			{VolumeView "body.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 0.75 3 0.5}
+	{Bone "flammenwerfer_kleif_baloon"}
+	{Matrix34
+		0	0.0908077	7.88918
+		5.35042	0.000921629	0
+		-0.000259441	14.3032	-0.0418062
+		-0.681576	-1.1238	0.446741
+	}
+	{position 5 2 1.5}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "flammenwerfer_kleif_baloon"}
+	{Matrix34
+		0	0.0115101	0.999934
+		1	0.00018039	0
+		0	0.999996	-0.00292258
+		-0.705186	9.59699	0.415407
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6 -2 100}
+			{lookat 6 -2 0}
+			{fov 7}
+			{horizon 90}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.74009	-2.09805	5.23999}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -9.47356	-1.4918	3.67065}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6 -2 100}
+			{lookat 6 -2 0}
+			{fov 7}
+			{horizon 90}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.74009	-2.09805	6.1223}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -9.47356	-1.4918	4.55296}
+			}
+		}
+	}
+}

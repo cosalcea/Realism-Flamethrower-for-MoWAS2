@@ -1,0 +1,34 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{simulation {able 1} {state 1}}
+	{constrain ground}
+	{obstacleID "nothing"}
+	{collider "particle.firemarker"}
+
+	{volume "core"
+		{sphere 0.1}
+		{able clear {contact 0} {overlap} {contact_ground}}
+		{bone "basis"}
+		{material "dummy"}
+	}
+	{volume "body"
+		{sphere 2}
+		{able clear {contact 0} {overlap 0}}
+		{bone "basis"}
+		{material "dummy"}
+		{density 0}
+	}
+
+	{simulatorId "grenade"}
+	{body
+		{proper body sensible}
+		{permit body}
+	}
+
+	{extender "stuff"
+		{item "fire"}
+	}
+
+	{props "flamer_marker" "marker_gas"}
+	; {tag "marker"}
+}

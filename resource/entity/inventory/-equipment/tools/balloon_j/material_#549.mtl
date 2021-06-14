@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m1flamethrower_diffuseoriginal"}
+	{bump "m1flamethrower_normal"}
+	{specular "m1flamethrower_metallic"}
+	{color "229 229 229 152"}
+	{blend none}
+}

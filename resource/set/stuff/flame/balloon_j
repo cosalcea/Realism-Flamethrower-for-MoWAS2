@@ -1,0 +1,5 @@
+{from "balloon"
+	{desc "desc/flamer/balloon_j"}
+	{entity "t100ft_tank"}
+	{filling "mixedoil" 150}
+}

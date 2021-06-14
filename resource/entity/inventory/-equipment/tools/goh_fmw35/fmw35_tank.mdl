@@ -1,0 +1,89 @@
+;Exported by:	 guita
+;Date:			 31.07.2020 22:12:27
+;File:			 D:\Git\3D_Scenes\GoH_3D_human_export\3d_weapons\flammenwerfer35\Flammenwerfer35_export.max
+{skeleton
+	{bone "nozzle"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{bone "foresight3"
+			{Position 17.1447 	 0.864 	 0.0062}
+		}
+		{bone "handle"
+			{matrix34
+				1 	 0 	 0
+				0 	 0 	 -1
+				0 	 1 	 0
+				6.8772 	 1.1354 	 -0.027
+			}
+		}
+		{bone "tank_link"
+			{Position -1.5179 	 3.2798 	 1.8574}
+			{bone "tank"
+				{Position 6.1136 	 -0.0763 	 -0.767}
+				{bone "fuel_tank"
+					{Position 1.6912 	 0.0288 	 1.1248}
+					{LODView
+						{VolumeView "fuel_tank.ply"}
+						{VolumeView "fuel_tank_lod1.ply"}
+						{VolumeView "fuel_tank_lod2.ply"}
+					}
+				}
+			}
+		}
+		{bone "tank_back"
+			{matrix34
+				0.9986 	 -0.0523 	 -0.0027
+				0.0523 	 0.9973 	 0.0523
+				0 	 -0.0523 	 0.9986
+				-0.0094 	 0.8717 	 0.139
+			}
+		}
+	}
+}
+{volume "body"
+	{cylinder 2.40477 12.0463}
+	{bone "fuel_tank"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.152 	 0.0289 	 -0.0349
+	}
+}
+{volume "select"
+	{box 7.29593 6.22043 14.7669}
+	{bone "fuel_tank"}
+	{matrix34
+		0 	 -1 	 0
+		0 	 0 	 1
+		-1 	 0 	 0
+		-0.1928 	 0.003 	 -0.0009
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 15.0127 	 64.2348 	 245.47}
+			{lookat 5.6216 	 -1.4693 	 5.2979}
+			{fov 2.56696}
+			{horizon 97.5888}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.9624 	 4.4329 	 -0.5498}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0937 	 -0.1381 	 -0.4713}
+			}
+			{"2"
+				{type point}
+				{position 1.2305 	 -11.328 	 6.7421}
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{from "tank_balloon"
+	{desc "desc/flamer/trailer_balloon"}
+	{filling "mixedoil_thick" 1000}
+}

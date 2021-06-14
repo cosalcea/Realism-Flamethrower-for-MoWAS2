@@ -1,0 +1,29 @@
+{
+	(include "/properties/trench.inc")
+	{Extension "trench_lie_1.mdl"}
+	{props "sand"}
+	("boneLand"  args "trench_ground")
+	("volume" args "body")
+	{ObstacleID "unbreakable"}
+
+	{bone "trench_ground"
+		{bone "cover"
+			{Orientation
+				-1	0	0
+				0	-1	0
+				0	0	1
+			}
+			{position -5 0 -1}
+		}
+	}
+	{Volume "cover"
+		{bone "cover"}
+		{sphere 10}
+		{Tags  "attach" "cover"}
+		{able clear {touch}}
+	}
+	{placer
+		{place "cover" {attach  open_lie} {linkbone "cover"}}
+	}
+	{boarder}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "attach_lufboy_tank_dm"}
+	{bump "attach_lufboy_tank_nm"}
+	{color "230 230 230 25"}
+	{blend none}
+}

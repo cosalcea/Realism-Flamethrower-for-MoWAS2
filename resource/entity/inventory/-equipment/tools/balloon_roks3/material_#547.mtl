@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "roks3_basecolor"}
+	{bump "roks3_normal"}
+	{specular "roks3_metalness"}
+	{color "229 229 229 152"}
+	{blend test}
+}

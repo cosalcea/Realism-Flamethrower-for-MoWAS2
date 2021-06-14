@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "main"}
+	{color "230 230 230 163"}
+	{blend none}
+}

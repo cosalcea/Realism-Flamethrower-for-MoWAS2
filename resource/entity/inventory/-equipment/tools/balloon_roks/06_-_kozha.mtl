@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "leather52"}
+	{specular "leather51_sp"}
+	{color "229 229 229 163"}
+	{blend none}
+}
